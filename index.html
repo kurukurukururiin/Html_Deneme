@@ -4,51 +4,90 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kurunun erişim merkezi</title>
+    <style>
+        
+        body {
+            background-color: #121212;
+            color: #b6b6b6;
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 40px 20px;
+            margin: 0;
+        }
+
+        h2 {
+            font-size: 20px;
+            margin-top: 30px;
+            margin-bottom: 15px;
+            letter-spacing: 1px;
+            color: #b6b6b6;
+        }
+
+        .link-kutusu {
+            display: flex;
+            align-items: center;
+            background-color: #1f1f1f;
+            color: #b6b6b6;
+            width: 320px;
+            padding: 12px 20px;
+            margin: 10px 0;
+            border-radius: 12px;
+            text-decoration: none;
+            transition: transform 0.2s, background-color 0.2s; 
+            box-shadow: 0 4px 6px rgba(0,0,0,0.3);
+        }
+
+        .link-kutusu:hover {
+            background-color: #2a2a2a;
+            transform: translateY(-3px);
+        }
+
+        .link-kutusu img {
+            width: 24px;
+            height: 24px;
+            margin-right: 15px;
+        }
+
+    </style>
 </head>
+
 <body>
-    <h2>Linkler cart curt</h2>
-    <hr>
+    <h2>Linkler</h2>
 
-
-    <a href="https://www.instagram.com/stngry_/">
-        <img src="Assets/Insta.png" alt="Visit my Instagram" width="30" height="30">
-    </a>
-    <a href="https://www.instagram.com/stngry_/">Instagram</a>
-
-
-    <br>
-
-    <a href="https://steamcommunity.com/id/Aegeanosuki/">
-        <img src="Assets/Steam.png" alt="Visit my Steam" width="30" height="30">
+    <a href="https://www.instagram.com/stngry_/" class="link-kutusu" target="_blank">
+        <img src="Assets/Insta.png" alt="Instagram">
+        <span>Instagram</span>
     </a>
 
-    <a href="https://steamcommunity.com/id/Aegeanosuki/">Steam</a>
-
-    <br>
-
-        <a href="https://open.spotify.com/user/31txxhvw2peqznflitf2mnh7zvfy?si=b7f484b2e8d04564">
-        <img src="Assets/Spoti.png" alt="Visit my Spotify" width="30" height="30">
+    <a href="https://steamcommunity.com/id/Aegeanosuki/" class="link-kutusu" target="_blank">
+        <img src="Assets/Steam.png" alt="Steam">
+        <span>Steam</span>
     </a>
-    <a href="https://open.spotify.com/user/31txxhvw2peqznflitf2mnh7zvfy?si=b7f484b2e8d04564">Spotify</a>
 
-    <hr>
+    <a href="https://open.spotify.com/user/31txxhvw2peqnflitf2mnh7zvfy?si=b7f484b2e8d04564" class="link-kutusu" target="_blank">
+        <img src="Assets/Spoti.png" alt="Spotify">
+        <span>Spotify</span>
+    </a>
+
     <h2>Faydalı Linkler</h2>
-    <hr>
 
-    <a href="Music.html">
-        <img src="Assets/Arrow.png" width="30" height="30">
+    <a href="Music.html" class="link-kutusu">
+        <img src="Assets/Arrow.png" alt="Arrow">
+        <span>Müzik ve Video</span>
     </a>
-    <a href="Music.html">Müzik ve Video</a>
 
-    <br>
-
-        <a href="Pirating.html">
-        <img src="Assets/Arrow.png" width="30" height="30">
+    <a href="Pirinating.html" class="link-kutusu">
+        <img src="Assets/Arrow.png" alt="Arrow">
+        <span>Diğer</span>
     </a>
-    <a href="Pirating.html">Diğer</a>
-
-    <hr>
-
+    
+    <a href="https://aimultiple.com" class="link-kutusu">
+        <img src="Assets/Arrow.png" alt="Arrow">
+        <span>AIMultiple</span>
+    </a>
 
 </body>
+
 </html>
